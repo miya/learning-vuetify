@@ -1,24 +1,24 @@
 <template>
   <v-app>
     <v-main>
-      <PageHeader/>
-      <HelloWorld/>
-      <PageFooter/>
+      <Header/>
+      <Login/>
+      <Footer/>
     </v-main>
   </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld'
-import PageHeader from './components/Header'
-import PageFooter from './components/Footer'
+import Login from './components/Login'
+import Header from './components/Header'
+import Footer from './components/Footer'
 
 export default {
   name: 'App',
   components: {
-    PageHeader,
-    HelloWorld,
-    PageFooter
+    Header,
+    Login,
+    Footer
   }
 };
 </script>

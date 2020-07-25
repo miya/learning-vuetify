@@ -1,5 +1,5 @@
 <template>
-  <v-bottom-navigation>
+  <v-bottom-navigation dark shift>
   <v-btn value="user">
     <span>User</span>
     <v-icon>mdi-account</v-icon>
@@ -16,9 +16,3 @@
   </v-btn>
 </v-bottom-navigation>
 </template>
-
-<script>
-export default {
-  name: 'PageFooter'
-}
-</script>
