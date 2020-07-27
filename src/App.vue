@@ -2,7 +2,7 @@
   <v-app>
     <v-main>
       <Header/>
-      <router-view/>
+      <router-view class="content"/>
       <Footer/>
     </v-main>
   </v-app>
@@ -22,5 +22,10 @@ export default {
 </script>
 
 <style scoped>
-
+html {
+  background-color: #f5f5f5;
+}
+.content {
+  text-align: center;
+}
 </style>
